@@ -1,0 +1,237 @@
+<!DOCTYPE html><html><head><title>LostByteSoft ScannerIP</title>
+<link rel="icon" type="image/x-icon" href="Images/lbslogo.ico">
+</head><body style=background-color:gray><!-- ########################################################### --><left>
+<h1 style=font-size:2vw>LostByteSoft ScannerIP. This file must be in root of EVERYTHING.</h1>
+<p>LostByteSoft ScannerIP Menu : <a href='https://github.com/LostByteSoft'>LostByteSoft</a> <a href='index.html'>Index</a> <a href='ScannerLOGS.htm'>ScannerLOGS</a> <a href='ScannerHTML.htm'>ScannerHTML</a> <a href='ScanERRORS.txt' target=_blank>ScanERRORS</a> <a href='readME.md' target=_blank>readME.md</a></p>
+</li><li></li>
+</br>
+# LBS ScannerIP</br>
+</br>
+	# Scan & test ALL IP with some ports from internet.</br>
+	</br>
+	Tested in Debian cinnamon 12 & 13. (Bash needed) Version 6.00 first public release.</br>
+</br>
+	https://github.com/LostByteSoft</br>
+	LostBytesSoft, lost byte softwares, because everything is ephemeral.</br>
+	</br>
+	Scan IP network for responding ip and test open port.</br>
+	</br>
+	NOT answering devices will NOT shown.</br>
+	</br>
+	When responding ip found scan with theses port:</br>
+	If address found scan port : 20, 21, 80, 443, 8008, 8080</br>
+	If address found and scanmoreports=1 : 20, 21, 22, 23, 53, 69, 80, 443, 981, 989, 1194, 1337, 5001, 6969, 8080, 8008, 8087, 8888, 31337</br>
+	</br>
+	https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers</br>
+	</br>
+	Max ip adress : 256.256.256.256 = 4 294 967 296  addresses</br>
+	256*256*256*256= 4M (the 0 count and 255 is special and count)</br>
+	IPv4 uses a 32-bit address space which provides 4 294 967 296 unique addresses.</br>
+	592 708 864 are reserved so 3 702 258 432 are usable on direct internet.</br>
+	Ports are unsigned 16-bit integers (0-65535)	</br>
+</br>
+	</br>
+	Don't hack paid software, free software exists and does the job better.</br>
+	</br>
+	1.0.0.0 to 2.0.0.0 = 16 777 216 address</br>
+</br>
+</br>
+What do you need to run this software:</br>
+--------------------------------------------------------------------</br>
+A computer with linux who can run bash.</br>
+</br>
+	Any cpu, ram (1.1 mb for each scan) & hdd (100 mb).</br>
+</br>
+	Some tools are not needed but recommended.</br>
+		Curl</br>
+		Ftp</br>
+		Filezilla</br>
+		Whois</br>
+		Xclip</br>
+		Xdotool</br>
+	</br>
+</br>
+How to:</br>
+--------------------------------------------------------------------</br>
+</br>
+	There are 256 files named ScanIP_WAN_V_*version*-X.0.0.0-X.0.0.0.sh</br>
+	</br>
+	The first one and the last one:</br>
+	ScanIP_WAN_V_202503252134-0.0.0.0-1.0.0.0.sh</br>
+	...</br>
+	ScanIP_WAN_V_202503252134-255.0.0.0-256.0.0.0.sh</br>
+	</br>
+	Just execute each .sh files (Suggest no more than 10 at the same time)</br>
+</br>
+	If your computer fail or shutdown, just restart ScanIP_WAN_V_*version*-X.0.0.0-X.0.0.0.sh</br>
+	they will continue at last WatchDog. Press alt+c to friendly quit.</br>
+	</br>
+Others files:</br>
+</br>
+ScanIP TEST ALL port specific ip.sh</br>
+	-Specify an ip ex:192.168.0.1 and scan all port 0 to 65535.</br>
+</br>
+ScanIP TEST ip ftp anonymous.sh</br>
+	-Test an specified ip if port 21 (ftp) is open to anonymous.</br>
+</br>
+ScanIP TEST port specific ip.sh</br>
+	-Specify an ip ex:192.168.0.1 and scan theses port:</br>
+	20, 21, 22,, 23, 69, 80, 443, 981, 989, 1194, 5001, 8080, 8081, 8008, 8888, 31337</br>
+</br>
+bo2k1-3_beta5_bin.zip</br>
+	-BackOrifice2000</br>
+</br>
+index.html</br>
+ScannerHTML.htm</br>
+ScannerLOGS.htm</br>
+	-Web style interface</br>
+</br>
+ScanERRORS.txt</br>
+	-WatchDog report</br>
+</br>
+</br>
+Scanning takes a LONG time.... wait... wait again... and open : /ScannerHTML.htm</br>
+	ScanHTML-20.169.htm mean ScanHTML-20.169.XXX.XXX.htm</br>
+</br>
+</br>
+View windows:</br>
+--------------------------------------------------------------------</br>
+</br>
+Mini program scanner windows size is optimized for 1920x1080 , that equal 8 windows of ScannerIP at the same time.</br>
+</br>
+</br>
+Options:</br>
+--------------------------------------------------------------------</br>
+</br>
+There are many options: (on each .sh file started on line 57)</br>
+</br>
+	watchdog , 0 or 1 , 0 deactivated , 1 activated , default 1</br>
+	scanmoreport , 0 or 1 , 0 deactivated , 1 activated , default 0</br>
+	askmore , 0 or 1 , 0 deactivated , 1 activated , default 1</br>
+	pingdns , 0 or 1 , 0 deactivated , 1 activated , default 1</br>
+	htmlcreate , 0 or 1 , 0 deactivated , 1 activated , default 1</br>
+	watchdogreport , 0 or 1 , 0 deactivated , 1 activated , default 1</br>
+	minimize , 0 or 1 , 0 deactivated , 1 activated , default 0</br>
+</br>
+</br>
+Logs:</br>
+--------------------------------------------------------------------</br>
+</br>
+Errors report is saved in the ../ directory</br>
+</br>
+Everything else is saved in folder :</br>
+</br>
+Logs are going to /ScanLOGS folder./ScanLOGS/ScanLOGS-X.txt</br>
+Ftp are going to /ScanFTP folder. ScanFTP/ScanFTP-X.sh</br>
+Http are going to /ScanHTTP folder. ScanHTTP/ScanHTTP-X.sh</br>
+Extra are going to /ScanEXTRA folder. ScanEXTRA/ScanEXTRA-X.txt</br>
+Html are going to /ScanHTML folder. ScanHTML/ScanHTML-X.htm</br>
+</br>
+</br>
+Reserved address:</br>
+--------------------------------------------------------------------</br>
+</br>
+There alot of ip address not used & reserved. View this site for more informations: https://en.wikipedia.org/wiki/Reserved_IP_addresses</br>
+There are no interest a scanning theses ip, but this program scan it anyway.</br>
+</br>
+0.0.0.0–0.255.255.255		Reserved</br>
+</br>
+...</br>
+</br>
+Everything upper 240.0.0.0 is reserved or not used.</br>
+</br>
+240.0.0.0–255.255.255.254 	Internet	Reserved for future use (former Class E network)</br>
+255.255.255.255			Subnet		Reserved for the limited broadcast destination address</br>
+</br>
+</br>
+Ftp:</br>
+--------------------------------------------------------------------</br>
+</br>
+https://files.digilent.com/reference%2FEnabling_Access_to_FTP_Sites.pdf</br>
+</br>
+</br>
+BackOrifice2k:</br>
+--------------------------------------------------------------------</br>
+</br>
+You can try bo2k1-3_beta5_bin.zip (BackOrifice2k) to connect with port 31337.</br>
+</br>
+Donload https://sourceforge.net/projects/boxp/</br>
+</br>
+</br>
+ScannerIP v6:</br>
+--------------------------------------------------------------------</br>
+</br>
+Scan ipv6 with "ScannerIPv6-1,13.sh", only random actually. Just start many instances to scan more.</br>
+</br>
+</li><li></li>
+<br><center><img src=Images/lbslogo.ico></center></br>
+<br><center>All files in : <img src=Images/filesdoc.jpg></center></br>
+<br><center>Functions informations <img src=Images/functions.jpg></center></br>
+<br><center>One ScannerIP <img src=Images/1win.jpg></center></br>
+<br><center>In resolution 1366x768 (6 scan) <img src=Images/6win.jpg></center></br>
+<br><center>In resolution 1920x1080 (8 scan) <img src=Images/8win1920.jpg></center></br>
+</br>
+Not included:</br>
+--------------------------------------------------------------------</br>
+</br>
+I use a bash compiler to create 'ScannerHTML.htm' , 'ScannerLOGS.htm' & all 'ScanIP_WAN_V_202VERSIONS-X.0.0.0-X.0.0.0.sh'</br>
+	Theses compilers are NOT included.</br>
+</br>
+Versions:</br>
+--------------------------------------------------------------------</br>
+</br>
+ScannerIP v6,00 - 2025 - Fitst public release </br>
+</br>
+ScannerIP v5,75 - 2025-04-09-17-56-09</br>
+ScannerIP v5,72 - 2025-04-08-13-27-35</br>
+ScannerIP v5,59 - 2025-03-30 Sunday 19:50:28</br>
+ScannerIP v5,35 - version 2025-03-25</br>
+ScannerIP v0,01 - January 2025</br>
+</br>
+</br>
+FAQ:</br>
+--------------------------------------------------------------------</br>
+Why use bash there are best options out there ?</br>
+	I wanted to use bash.</br>
+</br>
+What is the purpose of this ?</br>
+	Scnning all ip to find web sites.</br>
+	Finding hiding stuff.</br>
+	Personnal project.</br>
+</br>
+</br>
+End-user license agreement (eula)</br>
+--------------------------------------------------------------------</br>
+</br>
+ 	JUST DO WHAT THE F*** YOU WANT WITH THE PUBLIC LICENSE</br>
+ 	</br>
+ 	Version 3.1415926532 (January 2022)</br>
+ 	</br>
+ 	TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION</br>
+    	</br>
+	Everyone is permitted to copy and distribute verbatim or modified copies of</br>
+ 	this license document.</br>
+ 	</br>
+ 	As is customary and in compliance with current global and interplanetary</br>
+ 	regulations, the author of these pages disclaims all liability for the</br>
+ 	consequences of the advice given here, in particular in the event of partial</br>
+ 	or total destruction of the material, Loss of rights to the manufacturer</br>
+ 	warranty, electrocution, drowning, divorce, civil war, the effects of radiation</br>
+ 	due to atomic fission, unexpected tax recalls or encounters with</br>
+ 	extraterrestrial beings elsewhere.</br>
+ 	</br>
+ 	YOU MUST ACCEPT THESES TERMS OR NOTHING WILL HAPPEN.</br>
+ 	</br>
+ 	LostByteSoft no copyright or copyleft we are in the center.</br>
+ 	</br>
+ 	You can send your request and your Christmas wishes to this address:</br>
+ 	</br>
+ 		Père Noël</br>
+ 		Pôle Nord, Canada</br>
+ 		H0H 0H0</br>
+</br>
+--------------------------------------------------------------------</br>
+</li><li></li>
+</left><!-- ########################################################### -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<style type=text/css media=screen></body></html>

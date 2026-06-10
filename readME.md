@@ -29,6 +29,7 @@
 	
 	1.0.0.0 to 2.0.0.0 = 16 777 216 address
 
+	Scanning IP addresses without explicit permission is illegal in most countries. It can be seen as unauthorized access or reconnaissance.
 
 What do you need to run this software:
 --------------------------------------------------------------------
@@ -43,7 +44,13 @@ A computer with linux who can run bash.
 		Whois
 		Xclip
 		Xdotool
-	
+
+
+You can install them with this line:
+
+sudo apt-get install Curl && sudo apt-get install Ftp && sudo apt-get install Filezilla && sudo apt-get install Whois && sudo apt-get install Xclip && sudo apt-get install Xdotool
+
+
 
 How to:
 --------------------------------------------------------------------
@@ -132,6 +139,10 @@ There are no interest a scanning theses ip, but this program scan it anyway.
 
 ...
 
+The entire 127.0.0.0/8 range (127.0.0.0 to 127.255.255.255) is reserved for loopback purposes.
+
+...
+
 Everything upper 240.0.0.0 is reserved or not used.
 
 240.0.0.0–255.255.255.254 	Internet	Reserved for future use (former Class E network)
@@ -176,6 +187,12 @@ In resolution 1366x768 (6 scan)
 In resolution 1920x1080 (8 scan)
 ![Screenshot](Images/8win1920.jpg)
 
+Version 6.23 Functions
+![Screenshot](Images/6.23_functions.jpg)
+
+Version 6.23 Scanning
+![Screenshot](Images/6.23_scanning.jpg)
+
 
 Not included:
 --------------------------------------------------------------------
@@ -186,12 +203,20 @@ I use a bash compiler to create 'ScannerHTML.htm' , 'ScannerLOGS.htm' & all 'Sca
 Versions:
 --------------------------------------------------------------------
 
+ScannerIP v6,23 - 2026-06-10
+
+ScannerIP v6,21 - 2026-06-07
+
 ScannerIP v6,00 - 2025 - Fitst public release 
 
 ScannerIP v5,75 - 2025-04-09-17-56-09
+
 ScannerIP v5,72 - 2025-04-08-13-27-35
+
 ScannerIP v5,59 - 2025-03-30 Sunday 19:50:28
+
 ScannerIP v5,35 - version 2025-03-25
+
 ScannerIP v0,01 - January 2025
 
 

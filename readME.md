@@ -30,6 +30,10 @@
 	1.0.0.0 to 2.0.0.0 = 16 777 216 address
 
 	Scanning IP addresses without explicit permission is illegal in most countries. It can be seen as unauthorized access or reconnaissance.
+	
+	There an extra log file here : /dev/shm/logs.txt
+	
+
 
 What do you need to run this software:
 --------------------------------------------------------------------
@@ -173,24 +177,31 @@ Screenshot:
 --------------------------------------------------------------------
 
 All files in :
+
 ![Screenshot](Images/filesdoc.jpg)
 
 Functions informations
+
 ![Screenshot](Images/functions.jpg)
 
 One ScannerIP
+
 ![Screenshot](Images/1win.jpg)
 
 In resolution 1366x768 (6 scan)
+
 ![Screenshot](Images/6win.jpg)
 
 In resolution 1920x1080 (8 scan)
+
 ![Screenshot](Images/8win1920.jpg)
 
 Version 6.23 Functions
+
 ![Screenshot](Images/6.23_functions.jpg)
 
 Version 6.23 Scanning
+
 ![Screenshot](Images/6.23_scanning.jpg)
 
 

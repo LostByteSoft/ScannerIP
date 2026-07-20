@@ -1,2 +1,2 @@
-## Empty file for now.
+## Empty file for now. USED FOR WATCHDOG ERRORS.
 

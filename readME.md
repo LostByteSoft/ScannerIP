@@ -204,6 +204,10 @@ Version 6.23 Scanning
 
 ![Screenshot](Images/6.23_scanning.jpg)
 
+Version 6.410 Functions
+
+![Screenshot](Images/scan6,410.jpg)
+
 
 Not included:
 --------------------------------------------------------------------
@@ -213,6 +217,8 @@ I use a bash compiler to create 'ScannerHTML.htm' , 'ScannerLOGS.htm' & all 'Sca
 
 Versions:
 --------------------------------------------------------------------
+
+ScannerIP v6,410 - 2026-08-31
 
 ScannerIP v6,23 - 2026-06-10
 
@@ -233,13 +239,19 @@ ScannerIP v0,01 - January 2025
 
 FAQ:
 --------------------------------------------------------------------
-Why use bash there are best options out there ?
+Why use bash there are betters options out there ?
 	I wanted to use bash.
 
 What is the purpose of this ?
 	Scnning all ip to find web sites.
 	Finding hiding stuff.
 	Personnal project.
+
+Why i sohould use this ?
+	You can, but should you really?
+
+Why the bash compilers are not included ?
+	It would be too complicated to explain how it works and how to set up the directories so that it works on your computer.
 
 
 End-user license agreement (eula)
